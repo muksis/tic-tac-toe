@@ -9,7 +9,7 @@ const Board = () => {
   // Use conditional logic to set a variable to either 'Player O' or  'Player X'
   let playerTurn = `Next Player: ${player == '0' ? 'Player O' : 'Player X'}`;
 
-  console.log(`We hav a winner ${status}`);
+  console.log(`We have a winner ${status}`);
 
   const takeTurn = (id) => {
     setGameState([...gameState, { id: id, player: player }]);
